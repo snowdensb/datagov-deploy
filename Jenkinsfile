@@ -64,6 +64,7 @@ pipeline {
           when {
             anyOf {
               branch 'master'
+              branch 'adborden/jenkins-jumpbox'
             }
           }
           environment {
@@ -81,6 +82,7 @@ pipeline {
           when {
             anyOf {
               branch 'master'
+              branch 'adborden/jenkins-jumpbox'
             }
           }
           environment {
